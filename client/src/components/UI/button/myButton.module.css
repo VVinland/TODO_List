@@ -1,0 +1,17 @@
+.MyBtn{
+    border-radius: 12px;
+    cursor:pointer;
+    width:auto;
+    transition:all 0.5s linear 0s;
+    height:30px;
+    border:none;
+    background: black;
+    color:white;
+}
+
+.MyBtn:hover{
+    transition:all 0.5s linear 0s;
+    background: transparent;
+    color: black;
+    transform: scale(1.2);
+}

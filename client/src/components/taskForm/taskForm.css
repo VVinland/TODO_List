@@ -1,0 +1,37 @@
+.taskForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-direction: column;
+    width:800px
+}
+
+.taskForm_fields{
+    display: flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.boxInput-select{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.taskForm_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.taskForm_button button{
+    width:250px;
+    transition:all 1s;
+    background: black;
+    color:white;
+}
+
+.taskForm_button button:hover{
+    background: transparent;
+    color:black;
+}

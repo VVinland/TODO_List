@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h1,strong {
+    font-weight: normal;
+    font-family: inherit;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 100%
+}
+
+body {
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    max-width: 100%;
+    background:gray;
+}

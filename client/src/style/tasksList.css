@@ -1,0 +1,129 @@
+.taskField {
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    flex-direction: row;
+    gap: 25px;
+    height: 100%;
+    padding-bottom:10px;
+}
+
+.tasksList {
+    display: flex;
+    flex-direction: column;
+}
+
+.myTasks,
+.tasksSubordinates {
+    display: flex;
+    flex-direction: column;
+    min-width:500px;
+    background: black;
+    border-radius: 16px;
+    color: burlywood;
+    box-shadow: 2px 2px 10px 10px;
+}
+
+.tasksSubordinates {
+    margin-left: 30px;
+}
+
+.tasksSubordinatesList {
+    border-left: 1px solid black;
+}
+
+.myTaskList,
+.tasksSubordinatesList {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    min-width: 600px;
+    max-width: 600px;
+}
+
+.myTaskList h1,
+.tasksSubordinatesList h1 {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.tasksSubordinatesList h1 {
+    margin-left: 30px;
+}
+
+.tasks_contet {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
+
+.tasks_button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.tasks_button button {
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    background: black;
+    color: burlywood;
+    width: 150px;
+    height: 40px;
+    transition: all 0.5s linear 0s;
+}
+
+.tasks_button button:hover {
+    transition: all 0.5s linear 0s;
+    background: transparent;
+    color: burlywood;
+    transform: scale(1.1)
+}
+
+.task_container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.task_container-content {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.task_container-content_entry {
+    display: flex;
+    flex-direction: column;
+    color: burlywood;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.task-description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-break: break-all;
+}
+
+.redColor{
+    color:red;
+}
+
+.greenColor{
+    color:green;
+}
+
+.greyColor{
+    color:grey;
+}
+
+.tasksSubordinates form{
+    color:black;
+}

@@ -1,0 +1,53 @@
+.taskFilter {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100px;
+    gap: 20px;
+    min-height: 50px;
+}
+
+.taskFilter select {
+    width: fit-content;
+}
+
+.taskFilter button {
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    background: black;
+    color: white;
+    width: 150px;
+}
+
+.myTaskFilter button,
+select {
+    position: relative;
+    right: 10%;
+}
+
+.myTaskFilter button {
+    transition: all 0.5s linear 0s;
+}
+
+.myTaskFilter select, .subordinatesTaskFilter select{
+    border-radius: 12px;
+}
+
+.subordinatesTaskFilter select {
+    position: relative;
+    right: 80%;
+}
+
+.subordinatesTaskFilter button {
+    position: relative;
+    right: 40%;
+    transition: all 0.5s linear 0s;
+}
+
+.subordinatesTaskFilter button:hover, .myTaskFilter button:hover {
+    transition: background 0.5s linear 0s, color 0.5s linear 0s, transform 1s linear 0s;
+    background: transparent;
+    color: black;
+    transform: scale(1.2);
+}
